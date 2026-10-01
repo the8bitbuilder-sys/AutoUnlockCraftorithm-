@@ -1,0 +1,14 @@
+name: AutoRecipeUnlock
+version: '1.0'
+main: com.testeight.autorecipeunlock.AutoRecipeUnlock
+api-version: '26.3'
+description: Automatically shows Craftorithm recipes in every player's recipe book
+softdepend: [Craftorithm]
+commands:
+  unlockrecipes:
+    description: Unlock all custom recipes for everyone online now (add "reload" to reload the config)
+    usage: /unlockrecipes [reload]
+    permission: autorecipeunlock.admin
+permissions:
+  autorecipeunlock.admin:
+    default: op

@@ -1,0 +1,11 @@
+# Recipes from these namespaces are unlocked for every player automatically.
+# Craftorithm's recipes use "craftorithm".
+namespaces:
+  - craftorithm
+
+# How long to wait after a player joins before unlocking (20 ticks = 1 second).
+join-delay-ticks: 100
+
+# How often to re-check everyone online, to catch recipes added by
+# /craftorithm reload (1200 ticks = 1 minute).
+recheck-interval-ticks: 1200
